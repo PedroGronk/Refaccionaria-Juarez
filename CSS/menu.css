@@ -28,12 +28,12 @@ header label {
         height: 20px;
         text-decoration: none;
         padding: 30px;
-        border-bottom: 1px solid rgba(22,3,255,0.4);
+        border-bottom: 1px solid rgba(0,0,0,0.775);
         text-align: center;
     }
 
         .menu a:hover {
-            background: rgba(19, 0, 255,0.4);
+            background: rgba(0, 0, 0,0.775);
         }
 #menu-bar:checked ~ .menu {
     transform: translateX(0%);
