@@ -8,13 +8,16 @@
 #blog article {
     margin: 20px;
     margin-left: 2em;
-    
+    cursor: pointer;
 }
 
 #blog img {
     width: 100%;
     max-width: 250px;
+    cursor: pointer;
 }
-#blog h4{
-   background-color: red;
+#blog h3{
+   color: red;
 }
+
+

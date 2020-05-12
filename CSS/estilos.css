@@ -4,7 +4,7 @@
 @import url(banner.css);
 @import url(blog.css);
 @import url(info.css);
-
+@import url(Sociales.css);
 body{
     margin: 0;
     padding: 0;
@@ -57,11 +57,11 @@ text-align: center;
 }
 
 
-footer .contenedor{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-padding-bottom: 25px;
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 25px;
 }
 
 .copy{
@@ -78,20 +78,40 @@ width: 100%;
     color: #333;
     text-decoration: none;
 }
+
 @media(min-width:1024px) {
     .sociales {
         width: auto;
-        
     }
+}
     footer .contenedor {
         justify-content: space-between;
-        
     }
 
-}
+
 
     @media(min-width:1024px) {
         .contenedor {
             width: 1800px;
         }
     }
+#logo img {
+    margin: 10px;
+    
+    float: left;
+    
+    margin: -115.5px 20px;
+    
+}
+@media(min-width:550px) {
+    #logo img {
+        margin: 10px;
+        margin: -115.5px 20px;
+    }
+}
+#informacion .info {
+    width: 100%;
+    text-align: center;
+}
+
+

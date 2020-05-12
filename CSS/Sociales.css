@@ -1,0 +1,39 @@
+﻿
+.social-networks a {
+    display: inline-flex;
+    color: #ffffff;
+    height: 48px;
+    width: 48px;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 6px;
+    transition: transform 0.4s;
+}
+
+    .social-networks a:hover {
+        transform: scale(1.3);
+    }
+    .social-networks a.whatsapp {
+        background-color: #4AC959;
+    }
+
+    .social-networks a.facebook {
+        background-color: #4267B2;
+    }
+
+    .social-networks a.twitter {
+        background-color: #1DA1F2;
+    }
+
+    .social-networks a.youtube {
+        background-color: #FF0000;
+    }
+
+    .social-networks a.instagram {
+        background-color: #E1306C;
+    }
+    
+   
