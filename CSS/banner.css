@@ -41,7 +41,7 @@ video {
         #banner h2::after {
             display: block;
                 width: 35%;
-                height:5px;
+                height: 5px;
                 content: "";
                 margin:auto;
                 background:#fff;
